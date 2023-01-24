@@ -1,0 +1,130 @@
+2022/05/19 09:15:59 | Controller | main:1 | Creating new Controller
+2022/05/19 09:16:00 | Dstore | main:1 | Setup complete, starting connections
+2022/05/19 09:16:00 | Dstore.ControllerConnection | main:1 | Creating new thread: Dstore1234
+2022/05/19 09:16:00 | Dstore.ControllerConnection | Dstore1234:14 | Thread started successfully
+2022/05/19 09:16:00 | Dstore.ControllerConnection | main:1 | Sending message: JOIN 1234
+2022/05/19 09:16:00 | Controller.DstoreCon | Dstore1234:16 | Thread started successfully
+2022/05/19 09:16:00 | Controller | NewConnections:15 | Dstore connected. Port: 1234
+2022/05/19 09:16:00 | Controller | Rebalance:17 | Rebalancing
+2022/05/19 09:16:00 | Controller | Rebalance:17 | 1 out of 3 Dstores connected
+2022/05/19 09:16:00 | Dstore | main:1 | Setup complete, starting connections
+2022/05/19 09:16:00 | Dstore.ControllerConnection | main:1 | Creating new thread: Dstore1235
+2022/05/19 09:16:00 | Dstore.ControllerConnection | Dstore1235:14 | Thread started successfully
+2022/05/19 09:16:00 | Dstore.ControllerConnection | main:1 | Sending message: JOIN 1235
+2022/05/19 09:16:00 | Controller | NewConnections:18 | Dstore connected. Port: 1235
+2022/05/19 09:16:00 | Controller.DstoreCon | Dstore1235:19 | Thread started successfully
+2022/05/19 09:16:00 | Controller | Rebalance:20 | Rebalancing
+2022/05/19 09:16:00 | Controller | Rebalance:20 | 2 out of 3 Dstores connected
+2022/05/19 09:16:01 | Dstore | main:1 | Setup complete, starting connections
+2022/05/19 09:16:01 | Dstore.ControllerConnection | main:1 | Creating new thread: Dstore1236
+2022/05/19 09:16:01 | Dstore.ControllerConnection | Dstore1236:14 | Thread started successfully
+2022/05/19 09:16:01 | Dstore.ControllerConnection | main:1 | Sending message: JOIN 1236
+2022/05/19 09:16:01 | Controller.DstoreCon | Dstore1236:22 | Thread started successfully
+2022/05/19 09:16:01 | Controller | NewConnections:21 | Dstore connected. Port: 1236
+2022/05/19 09:16:01 | Controller | Rebalance:23 | Rebalancing
+2022/05/19 09:16:01 | Controller.DstoreCon | Rebalance:23 | Sending message: LIST
+2022/05/19 09:16:01 | Dstore.ControllerConnection | Dstore1234:14 | Message reveived: LIST
+2022/05/19 09:16:01 | Controller.DstoreCon | Rebalance:23 | Sending message: LIST
+2022/05/19 09:16:01 | Controller.DstoreCon | Rebalance:23 | Sending message: LIST
+2022/05/19 09:16:01 | Dstore.ControllerConnection | Dstore1235:14 | Message reveived: LIST
+2022/05/19 09:16:01 | Dstore.ControllerConnection | Dstore1236:14 | Message reveived: LIST
+2022/05/19 09:16:01 | Dstore.ControllerConnection | Dstore1234:14 | Sending message: LIST 
+2022/05/19 09:16:01 | Dstore.ControllerConnection | Dstore1235:14 | Sending message: LIST 
+2022/05/19 09:16:01 | Controller.DstoreCon | Dstore1234:16 | Message reveived: LIST 
+2022/05/19 09:16:01 | Dstore.ControllerConnection | Dstore1236:14 | Sending message: LIST 
+2022/05/19 09:16:01 | Controller.DstoreCon | Dstore1235:19 | Message reveived: LIST 
+2022/05/19 09:16:01 | Controller.DstoreCon | Dstore1236:22 | Message reveived: LIST 
+2022/05/19 09:16:01 | Controller | Rebalance:23 | Rebalance successful
+2022/05/19 09:16:11 | Controller | Rebalance:32 | Rebalancing
+2022/05/19 09:16:11 | Controller.DstoreCon | Rebalance:32 | Sending message: LIST
+2022/05/19 09:16:11 | Dstore.ControllerConnection | Dstore1234:14 | Message reveived: LIST
+2022/05/19 09:16:11 | Controller.DstoreCon | Rebalance:32 | Sending message: LIST
+2022/05/19 09:16:11 | Controller.DstoreCon | Rebalance:32 | Sending message: LIST
+2022/05/19 09:16:11 | Dstore.ControllerConnection | Dstore1235:14 | Message reveived: LIST
+2022/05/19 09:16:11 | Dstore.ControllerConnection | Dstore1234:14 | Sending message: LIST 
+2022/05/19 09:16:11 | Dstore.ControllerConnection | Dstore1236:14 | Message reveived: LIST
+2022/05/19 09:16:11 | Controller.DstoreCon | Dstore1234:16 | Message reveived: LIST 
+2022/05/19 09:16:11 | Dstore.ControllerConnection | Dstore1235:14 | Sending message: LIST 
+2022/05/19 09:16:12 | Controller.DstoreCon | Dstore1235:19 | Message reveived: LIST 
+2022/05/19 09:16:12 | Dstore.ControllerConnection | Dstore1236:14 | Sending message: LIST 
+2022/05/19 09:16:12 | Controller.DstoreCon | Dstore1236:22 | Message reveived: LIST 
+2022/05/19 09:16:12 | Controller | Rebalance:32 | Rebalance successful
+2022/05/19 09:16:22 | Controller | Rebalance:36 | Rebalancing
+2022/05/19 09:16:22 | Controller.DstoreCon | Rebalance:36 | Sending message: LIST
+2022/05/19 09:16:22 | Controller.DstoreCon | Rebalance:36 | Sending message: LIST
+2022/05/19 09:16:22 | Dstore.ControllerConnection | Dstore1234:14 | Message reveived: LIST
+2022/05/19 09:16:22 | Dstore.ControllerConnection | Dstore1235:14 | Message reveived: LIST
+2022/05/19 09:16:22 | Dstore.ControllerConnection | Dstore1234:14 | Sending message: LIST 
+2022/05/19 09:16:22 | Controller.DstoreCon | Rebalance:36 | Sending message: LIST
+2022/05/19 09:16:22 | Controller.DstoreCon | Dstore1234:16 | Message reveived: LIST 
+2022/05/19 09:16:22 | Dstore.ControllerConnection | Dstore1235:14 | Sending message: LIST 
+2022/05/19 09:16:22 | Dstore.ControllerConnection | Dstore1236:14 | Message reveived: LIST
+2022/05/19 09:16:22 | Dstore.ControllerConnection | Dstore1236:14 | Sending message: LIST 
+2022/05/19 09:16:22 | Controller.DstoreCon | Dstore1235:19 | Message reveived: LIST 
+2022/05/19 09:16:22 | Controller.DstoreCon | Dstore1236:22 | Message reveived: LIST 
+2022/05/19 09:16:22 | Controller | Rebalance:36 | Rebalance successful
+2022/05/19 09:16:32 | Controller | Rebalance:37 | Rebalancing
+2022/05/19 09:16:32 | Controller.DstoreCon | Rebalance:37 | Sending message: LIST
+2022/05/19 09:16:32 | Controller.DstoreCon | Rebalance:37 | Sending message: LIST
+2022/05/19 09:16:32 | Dstore.ControllerConnection | Dstore1234:14 | Message reveived: LIST
+2022/05/19 09:16:32 | Controller.DstoreCon | Rebalance:37 | Sending message: LIST
+2022/05/19 09:16:32 | Dstore.ControllerConnection | Dstore1234:14 | Sending message: LIST 
+2022/05/19 09:16:32 | Dstore.ControllerConnection | Dstore1235:14 | Message reveived: LIST
+2022/05/19 09:16:32 | Controller.DstoreCon | Dstore1234:16 | Message reveived: LIST 
+2022/05/19 09:16:32 | Dstore.ControllerConnection | Dstore1235:14 | Sending message: LIST 
+2022/05/19 09:16:32 | Dstore.ControllerConnection | Dstore1236:14 | Message reveived: LIST
+2022/05/19 09:16:32 | Dstore.ControllerConnection | Dstore1236:14 | Sending message: LIST 
+2022/05/19 09:16:32 | Controller.DstoreCon | Dstore1235:19 | Message reveived: LIST 
+2022/05/19 09:16:32 | Controller.DstoreCon | Dstore1236:22 | Message reveived: LIST 
+2022/05/19 09:16:32 | Controller | Rebalance:37 | Rebalance successful
+2022/05/19 09:16:42 | Controller | Rebalance:38 | Rebalancing
+2022/05/19 09:16:42 | Controller.DstoreCon | Rebalance:38 | Sending message: LIST
+2022/05/19 09:16:42 | Controller.DstoreCon | Rebalance:38 | Sending message: LIST
+2022/05/19 09:16:42 | Dstore.ControllerConnection | Dstore1234:14 | Message reveived: LIST
+2022/05/19 09:16:42 | Dstore.ControllerConnection | Dstore1235:14 | Message reveived: LIST
+2022/05/19 09:16:42 | Controller.DstoreCon | Rebalance:38 | Sending message: LIST
+2022/05/19 09:16:42 | Dstore.ControllerConnection | Dstore1234:14 | Sending message: LIST 
+2022/05/19 09:16:42 | Controller.DstoreCon | Dstore1234:16 | Message reveived: LIST 
+2022/05/19 09:16:42 | Dstore.ControllerConnection | Dstore1235:14 | Sending message: LIST 
+2022/05/19 09:16:42 | Dstore.ControllerConnection | Dstore1236:14 | Message reveived: LIST
+2022/05/19 09:16:42 | Controller.DstoreCon | Dstore1235:19 | Message reveived: LIST 
+2022/05/19 09:16:42 | Dstore.ControllerConnection | Dstore1236:14 | Sending message: LIST 
+2022/05/19 09:16:42 | Controller.DstoreCon | Dstore1236:22 | Message reveived: LIST 
+2022/05/19 09:16:42 | Controller | Rebalance:38 | Rebalance successful
+2022/05/19 09:16:52 | Controller | Rebalance:39 | Rebalancing
+2022/05/19 09:16:52 | Controller.DstoreCon | Rebalance:39 | Sending message: LIST
+2022/05/19 09:16:52 | Controller.DstoreCon | Rebalance:39 | Sending message: LIST
+2022/05/19 09:16:52 | Dstore.ControllerConnection | Dstore1234:14 | Message reveived: LIST
+2022/05/19 09:16:52 | Dstore.ControllerConnection | Dstore1235:14 | Message reveived: LIST
+2022/05/19 09:16:52 | Dstore.ControllerConnection | Dstore1234:14 | Sending message: LIST 
+2022/05/19 09:16:52 | Controller.DstoreCon | Rebalance:39 | Sending message: LIST
+2022/05/19 09:16:52 | Controller.DstoreCon | Dstore1234:16 | Message reveived: LIST 
+2022/05/19 09:16:52 | Dstore.ControllerConnection | Dstore1235:14 | Sending message: LIST 
+2022/05/19 09:16:52 | Dstore.ControllerConnection | Dstore1236:14 | Message reveived: LIST
+2022/05/19 09:16:52 | Dstore.ControllerConnection | Dstore1236:14 | Sending message: LIST 
+2022/05/19 09:16:52 | Controller.DstoreCon | Dstore1235:19 | Message reveived: LIST 
+2022/05/19 09:16:52 | Controller.DstoreCon | Dstore1236:22 | Message reveived: LIST 
+2022/05/19 09:16:52 | Controller | Rebalance:39 | Rebalance successful
+2022/05/19 09:17:02 | Controller | Rebalance:40 | Rebalancing
+2022/05/19 09:17:02 | Controller.DstoreCon | Rebalance:40 | Sending message: LIST
+2022/05/19 09:17:02 | Controller.DstoreCon | Rebalance:40 | Sending message: LIST
+2022/05/19 09:17:02 | Dstore.ControllerConnection | Dstore1234:14 | Message reveived: LIST
+2022/05/19 09:17:02 | Controller.DstoreCon | Rebalance:40 | Sending message: LIST
+2022/05/19 09:17:02 | Dstore.ControllerConnection | Dstore1234:14 | Sending message: LIST 
+2022/05/19 09:17:02 | Dstore.ControllerConnection | Dstore1235:14 | Message reveived: LIST
+2022/05/19 09:17:02 | Dstore.ControllerConnection | Dstore1236:14 | Message reveived: LIST
+2022/05/19 09:17:02 | Controller.DstoreCon | Dstore1234:16 | Message reveived: LIST 
+2022/05/19 09:17:02 | Dstore.ControllerConnection | Dstore1235:14 | Sending message: LIST 
+2022/05/19 09:17:02 | Controller.DstoreCon | Dstore1235:19 | Message reveived: LIST 
+2022/05/19 09:17:02 | Dstore.ControllerConnection | Dstore1236:14 | Sending message: LIST 
+2022/05/19 09:17:02 | Controller.DstoreCon | Dstore1236:22 | Message reveived: LIST 
+2022/05/19 09:17:02 | Controller | Rebalance:40 | Rebalance successful
+2022/05/19 09:17:03 | Dstore.ControllerConnection | Dstore1235:14 | Closing socket
+2022/05/19 09:17:03 | Dstore.ControllerConnection | Dstore1234:14 | Closing socket
+2022/05/19 09:17:03 | Dstore.ControllerConnection | Dstore1236:14 | Closing socket
+2022/05/19 09:17:03 | Dstore | Dstore1235:14 | Closing clients
+2022/05/19 09:17:03 | Dstore | Dstore1234:14 | Closing clients
+2022/05/19 09:17:03 | Dstore | Dstore1236:14 | Closing clients
+2022/05/19 09:17:03 | Dstore | ClientAcceptor:15 | Server socket closed
+2022/05/19 09:17:03 | Dstore | ClientAcceptor:15 | Server socket closed
+2022/05/19 09:17:03 | Dstore | ClientAcceptor:15 | Server socket closed
